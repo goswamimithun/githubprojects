@@ -13,7 +13,7 @@ void main() {
      scanf("%d", &year);
      if(year<1000 || year >9999){
      	printf("Invalide entry ! \n");
-     	goto abc;
+     	
 		 }
      
 	 else{
@@ -26,7 +26,7 @@ void main() {
 	 	else
 	 	printf("This is not leap year \n");
 	 }
-	 abc:
+	 
 	 printf("Do you want to continue press y :");
     scanf(" %c", &ch);
 }while(ch == 'Y' || ch == 'y');
